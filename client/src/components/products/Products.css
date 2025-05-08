@@ -1,0 +1,109 @@
+.productsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.productsHeading {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.productsCategoryTitle {
+  margin-top: 2rem;
+  color: #444;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  margin-top: 1.5rem;
+  list-style: none;
+  justify-items: center;
+}
+
+.productsCard {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.productsCard:hover {
+  transform: translateY(-4px);
+}
+
+.productsCard img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.productsText {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+
+.productsText h4 {
+  font-size: 1rem;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productsText p {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.3;
+  max-height: 2.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productsBtnGroup {
+  margin-top: auto;
+}
+
+.productsAddToCartBtn {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.productsAddToCartBtn:hover {
+  background-color: #218838;
+  transform: scale(1.04);
+}

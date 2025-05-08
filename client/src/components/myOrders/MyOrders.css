@@ -1,0 +1,39 @@
+.ordersContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ordersContainer p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 2rem;
+  
+}
+
+.orderCard {
+  background: lightgrey;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orderCard p {
+  margin: 0.25rem 0;
+}
+
+.orderCard ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderCard li {
+  margin: 0.2rem 0;
+  max-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}

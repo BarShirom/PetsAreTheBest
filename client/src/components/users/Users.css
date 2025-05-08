@@ -1,0 +1,28 @@
+.usersContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.userCard {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.userCard h3 {
+  margin: 0 0 0.5rem;
+}
+
+.userCard ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.userCard li {
+  margin: 0.3rem 0;
+}
